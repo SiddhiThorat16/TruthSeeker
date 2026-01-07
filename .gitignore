@@ -8,8 +8,6 @@ venv/
 env/
 .venv/
 
-# Data (KEEP CSVs tracked for this project)
-# *.csv   ← DON'T add this line - we NEED data/
 
 # ML Models + Pickles
 *.joblib
