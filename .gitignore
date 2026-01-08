@@ -8,13 +8,9 @@ venv/
 env/
 .venv/
 
-
-# ML Models + Pickles
+# ML Models + Pickles (ALL ignored)
 *.joblib
 *.pkl
-model.joblib
-vectorizer.joblib
-X_*.joblib
 
 # Streamlit
 .streamlit/
