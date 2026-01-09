@@ -1,3 +1,5 @@
+# "D:\ASD Internship\Fake-News-Detection\TruthSeeker\app.py"
+
 import streamlit as st
 import joblib
 import numpy as np
