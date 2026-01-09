@@ -17,8 +17,8 @@ st.set_page_config(
 @st.cache_resource
 def load_model():
     """Load 99.8% accurate model + vectorizer"""
-    model = joblib.load('best_model.joblib')
-    vectorizer = joblib.load('vectorizer.joblib')
+    model = joblib.load('models/best_model.joblib')
+    vectorizer = joblib.load('models/vectorizer.joblib')
     return model, vectorizer
 
 model, vectorizer = load_model()
